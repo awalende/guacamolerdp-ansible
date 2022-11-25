@@ -32,4 +32,4 @@
 - name: Setup password for default user
   user:
     name: "{{ DEFAULT_USER }}"
-    password: "{{ DEFAULT_PASSWORD_HASHED }}"
+    password: "{{ DEFAULT_PASSWORD }}"

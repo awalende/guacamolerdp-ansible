@@ -1,7 +1,7 @@
 guacamolerdp-ansible
 =========
 
-This role prepares a fresh Ubuntu 18.04 instance to be a fully fledged working environment via Xfce4 and XRDP.
+This role prepares a fresh Ubuntu 22.04 instance to be a fully fledged working environment via Xfce4 and XRDP.
 XRDP gets bundled with guacamole, a clientless remote desktop web gateway.
 
 Aim of this is, that we can "reverse proxy" a remote desktop session to a privileged user with a remoteproxy webserver
@@ -18,7 +18,7 @@ For more see the `Role Variables` section.
 Requirements
 ------------
 
-* Ubuntu 18.04
+* Ubuntu 22.04
 * Internet connection on the target
 * Guacamole runs on port `8080`, make sure its not in use already.
 
