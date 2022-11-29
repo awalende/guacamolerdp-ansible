@@ -1,8 +1,1 @@
 ---
-# vars file for guacamolerdp-ansible
-
-DEFAULT_USER: ubuntu
-DEFAULT_PASSWORD: ogvkyf
-# you can create password hashes like here https://stackoverflow.com/questions/19292899/creating-a-new-user-and-password-with-ansible
-GUAC_USER: denbi
-GUAC_PASSWORD: denbi

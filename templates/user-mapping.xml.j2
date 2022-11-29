@@ -4,12 +4,18 @@
                 username="{{ GUAC_USER }}"
                 password="{{ GUAC_PASSWORD }}">
 
-        <connection name="Ubuntu Server">
+        <connection name="Ubuntu Server (German Keyboard Layout)">
                 <protocol>rdp</protocol>
                 <param name="hostname">127.0.0.1</param>
                 <param name="port">3389</param>
-                <param name="username">{{ DEFAULT_USER }}</param>
-                <param name="password">{{ DEFAULT_PASSWORD }}</param>
+                <param name="server-layout">de-de-qwertz</param>
+        </connection>
+
+        <connection name="Ubuntu Server (US Keyboard Layout)">
+                <protocol>rdp</protocol>
+                <param name="hostname">127.0.0.1</param>
+                <param name="port">3389</param>
+                <param name="server-layout">en-us-qwerty</param>
         </connection>
 
         </authorize>
