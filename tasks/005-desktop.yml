@@ -20,6 +20,8 @@
       - xorg
       - dbus-x11
       - x11-xserver-utils
+      - xdg-desktop-portal
+      - xdg-desktop-portal-gtk
     state: latest
 
 - name: Config xrdp to start xfce4
